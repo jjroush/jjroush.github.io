@@ -1,0 +1,76 @@
+
+
+.jumbotron {
+    background-color: #f4511e;
+    color: #ffffff;
+
+}
+.navbar-default
+.navbar-nav>li>a:hover{
+  color: #f4511e;
+}
+
+.imgcontainer{
+  margin: none;
+  padding: none;
+}
+
+.typewriter p {
+  width: 397px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s ;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.typeCont{
+  width: 390px;
+  margin: auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+img.experience{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#project{
+  background-image: url(https://lh3.googleusercontent.com/LSbf-VCxu_h7i4cOqXKFX73F54kcwv77dujrMz48wUcL4Nl7fzJcu7waLXjj9Wop2WQdvdeDUrdCpUgEdlbE1g9aeZMor-s5QS1G-o7hqY138iVq5nktTM59Gh21BsMqQAk1a5poaA_uiJjGw1YXct2nYfY7QvanQ8vTj9zjgHM67FKWvGHbzu3OZkBtY3bTx-xyKk7ABh461IY3Qwe_r22t4ROh8W1aEsYUCDNfHMUfmlNkJ5LcvNPZsQCPzXFddwc-A_NjJwNJ2K6CfhrQCieZYSzyV7OeojVEF9J6s4GuEoDh_ewMRnoB-sSJ2EfbsAorQ7K7fY8VLeC8ERAhdaeSbDxGV-v8CopRdx_vtf7fcyfz-vdrJViJfUxejf85-XRU4F1xUQ7bU2TRXRCO49KuMmvH73VN-_I5OhSdCuc_VumP_ItaqgQWSzPms1QA6ShKRczNiiLkB9fz6XcxwaUu8Z3HhCQoQ6jTt_4LVjWB9w2x3EL4oRHoRZ6iU454zmWzDPF1voQOtRAzsmixB4uqG3pd7wwemlWV30E_IclxNcmG8YdViwGglScoLb0yAZiN3JL8Sd4fwDAEDLrOnoC73dFvbWwZ38lnscnJtaJwWGJdx9uz=s1612-no);
+}
+
+.text-light{
+  color: #ffffff;
+}
+
+
+img.desaturate {
+	filter: grayscale(0);
+}
+
+div.hidden {
+    display: none
+}
