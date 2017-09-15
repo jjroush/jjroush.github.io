@@ -59,7 +59,7 @@ img.experience{
 }
 
 #project{
-  background-image: url(photos/black.jpeg);
+  background-image: url("photos/black.jpg");
 }
 
 .text-light{
