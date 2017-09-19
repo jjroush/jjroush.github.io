@@ -44,6 +44,25 @@
   margin: auto;
 }
 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+ opacity:0;  !important
+ -webkit-animation: fadeIn ease-in 1;
+ -moz-animation: fadeIn ease-in 1;
+ animation: fadeIn ease-in 1; 
+
+ -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+
+ -webkit-animation-duration:2s;
+ -moz-animation-duration:2s;
+ animation-duration:2s;
+}
+
 h4 {
   text-align: center;
 }
