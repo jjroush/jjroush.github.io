@@ -5,10 +5,6 @@
     color: #ffffff;
 
 }
-.navbar-default
-.navbar-nav>li>a:hover{
-  color: #f4511e;
-}
 
 .imgcontainer{
   margin: none;
@@ -22,6 +18,10 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
+  -webkit-transition-delay: 2s;
+  -moz-transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s ;
@@ -52,7 +52,7 @@
  opacity:0;  !important
  -webkit-animation: fadeIn ease-in 1;
  -moz-animation: fadeIn ease-in 1;
- animation: fadeIn ease-in 1; 
+ animation: fadeIn ease-in 1;
 
  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
  -moz-animation-fill-mode:forwards;
@@ -62,6 +62,7 @@
  -moz-animation-duration:2s;
  animation-duration:2s;
 }
+
 
 h4 {
   text-align: center;
